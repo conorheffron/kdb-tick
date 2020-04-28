@@ -1,11 +1,11 @@
-## FEED
+## DUMMY FEED
 ```
 /workspace/kdb-tick$ q dummy_feed.q 
 verify:
 .feed
 *\p 5010 and tp will subscribe to this
 ```
-## TP
+## Ticker Plant
 ```
 /workspace/kdb-tick$ q tick.q -p 5010
 verify:
@@ -20,7 +20,8 @@ count trade
 count quote
 ```
 ## HDB
-```~/workspace/kdb-tick$ q db -p 5012
+```
+~/workspace/kdb-tick$ q db -p 5012
 verify:
 count trade
 count quote
